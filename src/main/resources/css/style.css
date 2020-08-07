@@ -1,0 +1,22 @@
+.save {
+	-fx-background-color: midnightblue;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-background-radius: 8px;
+	-fx-pref-width: 100px; 
+}
+	
+.cancel {
+	-fx-background-color: green;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;	
+	-fx-background-radius: 8px;
+	-fx-pref-width: 100px; 
+}
+
+.border-error {
+	-fx-border-radius: 4px;	
+	-fx-border-color: red;
+	-fx-border-width: 1px;
+	-fx-highlight-fill: none;
+}

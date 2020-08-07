@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/863810.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="179.0" layoutY="14.0" text="Developer:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="14.0" text="Fabio Yamashita" />
+      <Label layoutX="179.0" layoutY="37.0" text="Email:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="229.0" layoutY="37.0" text="fabio.yamashita@cognizant.com" />
+      <Label layoutX="179.0" layoutY="62.0" text="App:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="62.0" text="VPNResource" />
+      <Label layoutX="179.0" layoutY="85.0" text="Version:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="249.0" layoutY="85.0" text="1.0" />
+   </children>
+</AnchorPane>
